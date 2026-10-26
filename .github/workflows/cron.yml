@@ -2,7 +2,7 @@ name: Monitor OLX
 
 on:
   schedule:
-    - cron: '0 */2 * * *' # Executa a cada 2 horas
+    - cron: '0 * * * *' # Executa a cada 2 horas
   workflow_dispatch: # Adiciona um botão no GitHub para rodar manualmente
 
 jobs:
